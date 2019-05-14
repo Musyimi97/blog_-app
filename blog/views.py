@@ -1,5 +1,6 @@
 from .models import Post
 from django.views.generic import ListView, DetailView
+from django.views.generic.edit import CreateView
 
 # Create your views here.
 class BlogListView (ListView):
